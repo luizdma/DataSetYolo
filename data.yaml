@@ -2,12 +2,12 @@ train: ../train/images
 val: ../valid/images
 test: ../test/images
 
-nc: 13
-names: ['blue-helmet', 'glove', 'head', 'helmet', 'no helmet', 'no vest', 'orange helmet', 'person', 'red-helmet', 'safety boot', 'vest', 'white-helmet', 'yellow-helmet']
+nc: 3
+names: ['Paper', 'Rock', 'Scissors']
 
 roboflow:
   workspace: luiz-jkyec
-  project: ppe-detect-ev1jr-c7ssr
+  project: rock-paper-scissors-sxsw-4aa4o
   version: 1
-  license: Public Domain
-  url: https://universe.roboflow.com/luiz-jkyec/ppe-detect-ev1jr-c7ssr/dataset/1
+  license: Private
+  url: https://universe.roboflow.com/luiz-jkyec/rock-paper-scissors-sxsw-4aa4o/dataset/1
