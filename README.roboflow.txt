@@ -1,8 +1,8 @@
 
-PPE-detect - v1 2025-11-26 9:32am
+PPE-detect-v2 - v1 2025-12-01 9:10am
 ==============================
 
-This dataset was exported via roboflow.com on November 26, 2025 at 12:41 PM GMT
+This dataset was exported via roboflow.com on December 1, 2025 at 12:15 PM GMT
 
 Roboflow is an end-to-end computer vision platform that helps you
 * collaborate with your team on computer vision projects
@@ -17,8 +17,8 @@ visit https://github.com/roboflow/notebooks
 
 To find over 100k other datasets and pre-trained models, visit https://universe.roboflow.com
 
-The dataset includes 1146 images.
-Hardhat-person-vest are annotated in YOLOv8 format.
+The dataset includes 3327 images.
+People are annotated in YOLOv12 format.
 
 The following pre-processing was applied to each image:
 

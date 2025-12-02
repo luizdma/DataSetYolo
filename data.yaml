@@ -2,12 +2,12 @@ train: ../train/images
 val: ../valid/images
 test: ../test/images
 
-nc: 13
-names: ['blue-helmet', 'glove', 'head', 'helmet', 'no helmet', 'no vest', 'orange helmet', 'person', 'red-helmet', 'safety boot', 'vest', 'white-helmet', 'yellow-helmet']
+nc: 8
+names: ['Dust mask', 'Eye Wear', 'Glove', 'Jacket', 'Protective Boots', 'Protective Helmet', 'Shield', 'people']
 
 roboflow:
   workspace: luiz-jkyec
-  project: ppe-detect-ev1jr-c7ssr
+  project: ppe-detect-v2-xqbhc-axby0
   version: 1
   license: Public Domain
-  url: https://universe.roboflow.com/luiz-jkyec/ppe-detect-ev1jr-c7ssr/dataset/1
+  url: https://universe.roboflow.com/luiz-jkyec/ppe-detect-v2-xqbhc-axby0/dataset/1
