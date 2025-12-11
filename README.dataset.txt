@@ -1,6 +1,6 @@
-# PPE-detect-v2 > 2025-12-09 7:14am
-https://universe.roboflow.com/luiz-jkyec/ppe-detect-v2-xqbhc-axby0
+# Lane Detection > 2025-12-11 9:15am
+https://universe.roboflow.com/luiz-jkyec/lane-detection-vxwns-wp8qx
 
 Provided by a Roboflow user
-License: Public Domain
+License: CC BY 4.0
 

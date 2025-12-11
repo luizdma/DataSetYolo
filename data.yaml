@@ -2,12 +2,12 @@ train: ../train/images
 val: ../valid/images
 test: ../test/images
 
-nc: 11
-names: ['Dust mask', 'Electrical wire', 'Eye Wear', 'Glove', 'Jacket', 'Metal Ladder', 'Protective Boots', 'Protective Helmet', 'Shield', 'Wire', 'people']
+nc: 4
+names: ['Car', 'Left Lane', 'Middle Lane', 'Right Lane']
 
 roboflow:
   workspace: luiz-jkyec
-  project: ppe-detect-v2-xqbhc-axby0
-  version: 2
-  license: Public Domain
-  url: https://universe.roboflow.com/luiz-jkyec/ppe-detect-v2-xqbhc-axby0/dataset/2
+  project: lane-detection-vxwns-wp8qx
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/luiz-jkyec/lane-detection-vxwns-wp8qx/dataset/1
