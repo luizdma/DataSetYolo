@@ -1,8 +1,8 @@
 
-Lane Detection - v1 2025-12-11 9:15am
+Traffic-Light-Detection - v1 2025-12-10 10:31am
 ==============================
 
-This dataset was exported via roboflow.com on December 11, 2025 at 12:19 PM GMT
+This dataset was exported via roboflow.com on December 10, 2025 at 1:58 PM GMT
 
 Roboflow is an end-to-end computer vision platform that helps you
 * collaborate with your team on computer vision projects
@@ -17,11 +17,13 @@ visit https://github.com/roboflow/notebooks
 
 To find over 100k other datasets and pre-trained models, visit https://universe.roboflow.com
 
-The dataset includes 3495 images.
-Road-Lanes-Cars are annotated in YOLOv12 format.
+The dataset includes 4893 images.
+Traffic-Light-Detection are annotated in YOLOv12 format.
 
 The following pre-processing was applied to each image:
 
-No image augmentation techniques were applied.
+The following augmentation was applied to create 3 versions of each source image:
+* Equal probability of one of the following 90-degree rotations: none, clockwise, counter-clockwise
+* Salt and pepper noise was applied to 0.22 percent of pixels
 
 
