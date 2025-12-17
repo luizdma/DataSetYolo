@@ -1,8 +1,8 @@
 
-Lane Detection - v1 2025-12-11 9:15am
+Lane Marking  - v1 2025-12-17 10:11am
 ==============================
 
-This dataset was exported via roboflow.com on December 11, 2025 at 12:19 PM GMT
+This dataset was exported via roboflow.com on December 17, 2025 at 1:14 PM GMT
 
 Roboflow is an end-to-end computer vision platform that helps you
 * collaborate with your team on computer vision projects
@@ -17,11 +17,14 @@ visit https://github.com/roboflow/notebooks
 
 To find over 100k other datasets and pre-trained models, visit https://universe.roboflow.com
 
-The dataset includes 3495 images.
-Road-Lanes-Cars are annotated in YOLOv12 format.
+The dataset includes 6640 images.
+Objects are annotated in YOLOv11 format.
 
 The following pre-processing was applied to each image:
+* Auto-orientation of pixel data (with EXIF-orientation stripping)
 
-No image augmentation techniques were applied.
+The following augmentation was applied to create 2 versions of each source image:
+* Random rotation of between -7 and +7 degrees
+* Random Gaussian blur of between 0 and 2 pixels
 
 

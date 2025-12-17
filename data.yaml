@@ -2,12 +2,12 @@ train: ../train/images
 val: ../valid/images
 test: ../test/images
 
-nc: 4
-names: ['Car', 'Left Lane', 'Middle Lane', 'Right Lane']
+nc: 1
+names: ['lane_marking']
 
 roboflow:
-  workspace: luiz-jkyec
-  project: lane-detection-vxwns-wp8qx
+  workspace: heitor-qmxro
+  project: lane-marking-y7rxi
   version: 1
-  license: CC BY 4.0
-  url: https://universe.roboflow.com/luiz-jkyec/lane-detection-vxwns-wp8qx/dataset/1
+  license: Private
+  url: https://app.roboflow.com/heitor-qmxro/lane-marking-y7rxi/1
