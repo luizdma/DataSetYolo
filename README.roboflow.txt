@@ -1,8 +1,8 @@
 
-Traffic-Light-Detection - v1 2025-12-10 10:31am
+Capstone - v3 Model_TrafficLight_Motos
 ==============================
 
-This dataset was exported via roboflow.com on December 10, 2025 at 1:58 PM GMT
+This dataset was exported via roboflow.com on December 18, 2025 at 4:18 PM GMT
 
 Roboflow is an end-to-end computer vision platform that helps you
 * collaborate with your team on computer vision projects
@@ -17,13 +17,12 @@ visit https://github.com/roboflow/notebooks
 
 To find over 100k other datasets and pre-trained models, visit https://universe.roboflow.com
 
-The dataset includes 4893 images.
-Traffic-Light-Detection are annotated in YOLOv12 format.
+The dataset includes 10077 images.
+Traffic-Lights are annotated in YOLOv11 format.
 
 The following pre-processing was applied to each image:
+* Resize to 512x512 (Stretch)
 
-The following augmentation was applied to create 3 versions of each source image:
-* Equal probability of one of the following 90-degree rotations: none, clockwise, counter-clockwise
-* Salt and pepper noise was applied to 0.22 percent of pixels
+No image augmentation techniques were applied.
 
 

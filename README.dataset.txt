@@ -1,5 +1,5 @@
-# Traffic-Light-Detection > 2025-12-10 10:31am
-https://universe.roboflow.com/luiz-jkyec/traffic-light-detection-cdq70-b027f
+# Capstone > Model_TrafficLight_Motos
+https://universe.roboflow.com/matheusmnz/capstone-2ax1t-n4l5j
 
 Provided by a Roboflow user
 License: CC BY 4.0

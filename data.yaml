@@ -2,12 +2,12 @@ train: ../train/images
 val: ../valid/images
 test: ../test/images
 
-nc: 3
-names: ['green', 'red', 'yellow']
+nc: 4
+names: ['Motorcycle - v2 2025-12-18 11-34am', 'green', 'red', 'yellow']
 
 roboflow:
-  workspace: luiz-jkyec
-  project: traffic-light-detection-cdq70-b027f
-  version: 1
+  workspace: matheusmnz
+  project: capstone-2ax1t-n4l5j
+  version: 3
   license: CC BY 4.0
-  url: https://universe.roboflow.com/luiz-jkyec/traffic-light-detection-cdq70-b027f/dataset/1
+  url: https://universe.roboflow.com/matheusmnz/capstone-2ax1t-n4l5j/dataset/3
