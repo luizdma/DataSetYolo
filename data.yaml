@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Traffic Light -Green-', 'Traffic Light -Red-', 'Traffic Light -Yellow-']
+
+roboflow:
+  workspace: globalcad
+  project: traffic-light-detection-1zjk0-e3rpi
+  version: 1
+  license: CC BY 4.0
+  url: https://app.roboflow.com/globalcad/traffic-light-detection-1zjk0-e3rpi/1
