@@ -2,12 +2,12 @@ train: ../train/images
 val: ../valid/images
 test: ../test/images
 
-nc: 4
-names: ['Motorcycle - v2 2025-12-18 11-34am', 'green', 'red', 'yellow']
+nc: 2
+names: ['Moto', 'Semaforo']
 
 roboflow:
-  workspace: matheusmnz
-  project: capstone-2ax1t-n4l5j
+  workspace: globalcad
+  project: trafficlight_motocycle
   version: 3
-  license: CC BY 4.0
-  url: https://universe.roboflow.com/matheusmnz/capstone-2ax1t-n4l5j/dataset/3
+  license: Private
+  url: https://app.roboflow.com/globalcad/trafficlight_motocycle/3
